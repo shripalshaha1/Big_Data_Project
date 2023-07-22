@@ -1,11 +1,17 @@
 # Sentimental Analysis on Twitter Tweets 
+
 The goal of this project was to perform sentiment analysis on Twitter data to classify tweets as positive, negative or neutral. The project involved:
 
-Data Collection: Twitter data was collected using the Twitter API. Tweets containing specific keywords over a defined time period were extracted.
-Data Preprocessing: The raw Twitter data was cleaned by removing URLs, usernames, hashtags, special characters etc. Tokenization and lemmatization was applied to extract meaningful words and sentences from tweets.
-Sentiment Analysis: The preprocessed tweets were analyzed using the VADER sentiment analysis tool to assign positive, negative or neutral sentiment scores.
-Model Building: A logistic regression model was trained on labeled sentiment data to validate the performance of the VADER sentiment analysis.
-Evaluation: The VADER sentiment analyzer achieved 85% accuracy in classifying tweet sentiment when evaluated against the logistic regression model.
+* Data Collection: Twitter data was collected using the Twitter API. Tweets containing specific keywords over a defined time period were extracted.
+
+* Data Preprocessing: The raw Twitter data was cleaned by removing URLs, usernames, hashtags, special characters etc. Tokenization and lemmatization was applied to extract meaningful words and sentences from tweets.
+
+* Sentiment Analysis: The preprocessed tweets were analyzed using the VADER sentiment analysis tool to assign positive, negative or neutral sentiment scores.
+
+* Model Building: A logistic regression model was trained on labeled sentiment data to validate the performance of the VADER sentiment analysis.
+
+* Evaluation: The VADER sentiment analyzer achieved 85% accuracy in classifying tweet sentiment when evaluated against the logistic regression model.
+
 The project provided hands-on experience with sentiment analysis on unstructured Twitter data using natural language processing techniques. The resulting model can analyze public sentiment on various topics across Twitter to gain valuable insights.
 
 ## Big_Data Concepts used in this project
